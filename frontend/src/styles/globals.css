@@ -1,0 +1,165 @@
+@import "variables.css";
+
+html, body, #__next {
+  height: 100%;
+}
+
+body {
+  font: 16px/24px 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  position: relative;
+  width: 100%;
+  z-index: 0;
+  margin: 0;
+  padding: 0;
+  color: rgb($colorDark);
+  background-color: rgb($colorGray100);
+  -webkit-text-size-adjust: none;
+  -webkit-font-smoothing: subpixel-antialiased;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  font-size: 100%;
+  margin: 0;
+}
+
+button,
+fieldset,
+form,
+input,
+label,
+legend,
+optgroup,
+option,
+output,
+select,
+textarea {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: normal;
+  margin: 0 0 0.5em 0;
+  padding: 0;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+th,
+td {
+  padding: 0;
+  text-align: left;
+  vertical-align: top;
+  border-collapse: collapse;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+ol,
+ul,
+li {
+  padding: 0;
+}
+
+code,
+input,
+textarea {
+  font: inherit;
+}
+
+input::placeholder,
+textarea::placeholder {
+  color: rgb($colorGray300);
+}
+
+a img,
+fieldset {
+  border: 0;
+}
+
+b {
+  font-weight: normal;
+}
+
+i {
+  font-style: normal;
+}
+
+img {
+  max-width: 100%;
+}
+
+p + p {
+  margin-top: 0.5em;
+}
+
+h1 {
+  font-size: 24px;
+  font-weight: 500;
+}
+
+h2 {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+h3 {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+h4,
+h5,
+h6 {
+  font-size: 100%;
+  font-weight: 500;
+}
+
+*,
+input,
+select,
+textarea,
+option,
+button {
+  outline: none;
+}
+
+button {
+  border: none;
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}

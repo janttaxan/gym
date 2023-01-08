@@ -11,8 +11,8 @@ interface LayoutProps {
 export const Layout = (props: LayoutProps) => {
   return (
     <div className={styles.root}>
-      <main>{props.children}</main>
-      <footer>
+      <main className={styles.main}>{props.children}</main>
+      <footer className={styles.footer}>
         <Navigation />
       </footer>
     </div>
